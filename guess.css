@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    width: 100%;
+  }
+  body {
+    background: black;
+    overflow: hidden;
+  }
+  #again {
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0 0 2rem;
+  }
+  #between {
+    color: aliceblue;
+    text-align: right;
+    margin: -3rem 1rem 0 0;
+    word-spacing: 2px;
+    font-size: 20px;
+    font: bold;
+  }
+  #heading {
+    color: aliceblue;
+    font-size: 50px;
+    margin: 3rem 0 0 14em;
+    word-spacing: 1rem;
+    transform: scale(2, 1.5);
+  }
+  #hr {
+    padding: 2px;
+    background-color: aliceblue;
+    margin-top: 5rem;
+  }
+  #questionMark {
+    background-color: aliceblue;
+    margin: -0.55em 0 0 9em;
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+  }
+  #guess {
+    border: 2px solid aliceblue;
+    width: 4.5em;
+    height: 1.8em;
+    background-color: black;
+    color: aliceblue;
+    font: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 5em;
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+  #check {
+    padding: 0.5rem 2rem;
+    font: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0 0 8.8em;
+    border-radius: 5px;
+  }
+  #message,
+  #score,
+  #highScore {
+    /* border: 2px solid aliceblue; */
+    width: 31%;
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 2em;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: -6em 0 0 32em;
+  }
+  #score {
+    margin-top: 1em;
+  }
+  #highScore {
+    margin-top: 0.8em;
+  }
+  #secret {
+    display: none;
+  }
+  
