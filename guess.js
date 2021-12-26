@@ -9,7 +9,7 @@ const secretNumberInvisible = document.querySelector(".secret");
 const guessNumber = document.querySelector(".guess");
 
 let secretNumber = Math.ceil(Math.random() * 20);
-questionSymbol.textContent = secretNumber;
+
 
 let scoreNumber = 10;
 scoringDisplay.textContent = scoreNumber;
